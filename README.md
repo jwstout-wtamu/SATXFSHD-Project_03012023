@@ -141,7 +141,7 @@ Give a ⭐️ if you like this project!
 - [Django-Filters](https://django-filter.readthedocs.io/)
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/jwstout-wtamu/6325-SATXFSHD-Project/blob/main/LICENSE) licensed.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
