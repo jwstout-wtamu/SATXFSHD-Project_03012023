@@ -1,5 +1,5 @@
 # README
-# CIDM6325 - Justin Stout Blog app
+# CIDM6325 - Justin Stout - 6325 - SATXFSHD web app
 ---
 ## This repo will be for the final project
 #### This readme is for markup only at this time.
