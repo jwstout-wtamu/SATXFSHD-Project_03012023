@@ -1,5 +1,5 @@
 # README
-# CIDM6325 - Justin Stout Blog app
+# CIDM6325 - Justin Stout  - 6325 - SATXFSHD web app
 ---
 ## This repo will be for the final project
 #### This readme is for markup only at this time.
@@ -19,7 +19,7 @@ The guidance on prototype development creates a Baseline, Good, Better, Best app
 | Amazon Smile donations  | What is Amazon Smile and how it's used for donations        |
 | Local commuity news letter   | News letter feed straight to your inbox       |
 
-#### [Link to  separate table that itemizes which Django features I'll be using](https://github.com/jwstout-wtamu/blog_project/blob/main/django_feature.md)
+#### [Link to  separate table that itemizes which Django features I'll be using](https://github.com/jwstout-wtamu/6325-SATXFSHD-Project/blob/main/django_feature.md)
 
 - [x] What domain name you are planning to use: 	
 	- [x] satxfshd.social will be the domain name I'll be using
