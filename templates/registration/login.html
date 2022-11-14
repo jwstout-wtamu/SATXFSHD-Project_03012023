@@ -28,7 +28,10 @@
             <button type="submit" class="btn btn-primary">Submit</button>
             <p class="mt-1">Don't have an account <a href="{% url 'signup' %}">Register</a></p>
           </form>  
+          <p><a href="{% url 'password_reset' %}">Forgot your password?</a></p>
       </div>
     </div>
 
-    {% endblock content %}
+
+
+{% endblock content %}

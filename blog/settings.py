@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'django_filters',
+    'crispy_forms',
     
 ]
 
@@ -155,3 +156,11 @@ CKEDITOR_CONFIGS = {
         'width': '100%',
     },
 }
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+DEFAULT_FROM_EMAIL = environ.get("DEFAULT_FROM_EMAIL")
+EMAIL_HOST = "smtp.sendgrid.net"
+EMAIL_HOST_USER = "apikey"
+EMAIL_HOST_PASSWORD = environ.get("SECRET_KEY")
+EMAIL_PORT = 25, 587
+EMAIL_USE_TLS = True
+

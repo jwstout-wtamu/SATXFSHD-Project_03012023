@@ -33,6 +33,13 @@ I've changes the layout and option to better suite what I want to deliver.
 I've also integrated some Java in the build as well.
 MIT LIC file is also in the repo. 
 
+### Update 11/10/2022
+### Completed:
+Can open password forms fine 
+
+### Issues
+Sendgrid not seeing emails.
+
 <!--
 This README would normally document whatever steps are necessary to get the
 application up and running.

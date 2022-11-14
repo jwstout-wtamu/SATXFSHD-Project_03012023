@@ -156,7 +156,7 @@ def registerView(request):
       user = form.save(commit=False)
       user.save()
 
-      user = authenticate(request, username=user.username, password=request.POST['password1'])
+      user = authenticate(request, username=user.username, email=user.email, password=request.POST['password1'])
 
       if user is not None:
         login(request, user)

@@ -13,4 +13,5 @@ urlpatterns = [
     path('blogger/update', views.bloggerUpdate, name="blogger-update"),
     path('blogger/<int:pk>/delete', views.bloggerDelete, name="blogger-delete"),
     path('accounts/signup', views.registerView, name='signup'),
+    
 ]

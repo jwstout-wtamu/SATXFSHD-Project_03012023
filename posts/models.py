@@ -35,7 +35,7 @@ class Post(models.Model):
     thumbnail = models.ImageField(null=True, blank=True, upload_to="images", default="/images/placeholder.png")
     body = RichTextField(null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True)
-    tags = models.ManyToManyField(Tag, null=True, blank=True)
+    tags = models.ManyToManyField(Tag,  blank=True)
 
     def __str__(self):
       return self.headline

@@ -14,12 +14,12 @@
 <div class="container">
   <div class="login-wrapper">
     <h1>Register</h1>
-    <h4>Register to access Todo App</h4>
+    <h4>Register to access and get involved!</h4>
     <form method="POST" action="">
       {% csrf_token %}
       {% for field in form %}
         <div class="form-group">
-          <label for="exampleInputEmail1">{{field.label}}</label>
+          <label for="exampleInputEmail">{{field.label}}</label>
           {{field}}
         </div>
       {% endfor %}
@@ -28,4 +28,7 @@
     </form>
   </div>
 </div>
-{% endblock content %}
+{% endblock content %} -->
+
+
+
