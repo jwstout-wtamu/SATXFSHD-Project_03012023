@@ -36,9 +36,13 @@ MIT LIC file is also in the repo.
 ### Update 11/10/2022
 ### Completed:
 Can open password forms fine 
+### Update 11/16/2022
+Allowe to change password form updated
 
 ### Issues
 Sendgrid not seeing emails.
+
+
 
 <!--
 This README would normally document whatever steps are necessary to get the

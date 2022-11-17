@@ -34,7 +34,7 @@ class BloggerForm(forms.ModelForm):
     self.fields['email'].widget.attrs.update({'class':'form-control', 'placeholder':'Enter email'})
     self.fields['avatar'].widget.attrs.update({'class':'form-control'})
     self.fields['bio'].widget.attrs.update({'class':'form-control'})
-    self.fields['twitter'].widget.attrs.update({'class':'form-control', 'placeholder':'Enter twitter account'})
+    
 
 class CustomUserCreationForm(UserCreationForm):
   class Meta:
