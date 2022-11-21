@@ -1,7 +1,7 @@
  
 <!DOCTYPE html>
 <meta name="SATX FSHD Social" content="Local resources for San Antonio are FSHD patients and caregivers">
-
+{% load static %}
  <style>
    #id_tags{
 		max-height: 100px;
@@ -12,8 +12,17 @@
 	}
  </style>
  
-
-<div class="card mb-4">
+ <div class="card" style="card mb-4">
+  <img class="card-img-top" img src="{% static 'SATX-FSHD-Logo.jpg' %}" alt="">
+  <div class="card-body">
+    <h5 class="card-title">SATX FSHD Social</h5>
+    <p class="card-text">There is great power in community. Around the globe, individuals with FSHD are living proof of that. When we come together, each bringing our unique strengths to bear, we inspire each other to reach higher than we can when we go it alone. Follow the link below or use the form if you would like to get in contact with the team here at SATX FSHD Social. SATX FSHD Social is a convener and collaborator to find solutions, but we can't do it alone. Your participation is vital to ending the suffering caused by FSH Muscular Dystrophy (FSHD). There are many ways you can get involved and play an active role: Click on the Contact the FSHD Society button to contact the FSHD Society from more information or to get involved.</p>
+    <a href="#" class="btn btn-primary">Contact us</a>
+  </div>
+</div>
+<br>
+</br>
+<div class="card" style="card mb-4">
   <div class="card-header">Contact us - this will open your mail client</div>
   <div class="card-body"><form action="mailto:fshcommunity@fshdsociety.org" method="post" enctype="text/plain">
     <form action="mailto:fshcommunity@fshdsociety.org" method="post" enctype="text/plain">
@@ -30,14 +39,14 @@
 
   </div>
 </div>
-
-<div class="card mb-4">
-  <div class="card-header">FSHD Donations and Mech</div>
+<br>
+</br>
+<div class="card" style="card mb-4">
+  <div class="card-header">FSHD Donations and Merchandise<erchandise</div>
   <div class="card-body"><p class="card-text"><a href="https://www.bonfire.com/store/fshd-society/">WORLD FSHD DAY & STRONGER THAN SHIRTS - FSHD Society</p>
     <a href="https://www.fshdsociety.org/make-a-donation/">Direct donations - FSHD Society</p>
       <a href="https://smile.amazon.com">Support the FSH Society simply by shopping on AmazonSmile! It’s easy and doesn’t cost you a cent extra. When shopping on Amazon, simply do it through the AmazonSmile portal (smile.amazon.com). The first time you sign up at AmazonSmile, just choose the FSH Society as your charity of choice. Then start shopping!</p>
 
   </div>
 </div>
-
 
