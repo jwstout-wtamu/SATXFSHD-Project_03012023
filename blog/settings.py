@@ -30,7 +30,7 @@ SECRET_KEY = environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
+ALLOWED_HOSTS = ["msdocs-python-webapp-quickstart-satxfshd.azurewebsites.net", "satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
 
 
 # Application definition
