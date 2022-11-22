@@ -39,8 +39,9 @@ Can open password forms fine
 ### Update 11/16/2022
 Allowe to change password form updated
 
+### Update 11/21/2022
 ### Issues
-Sendgrid not seeing emails.
+Sendgrid emails is now working 
 
 
 

@@ -30,7 +30,7 @@ SECRET_KEY = environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["satxfshd.local", "satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
+ALLOWED_HOSTS = ["satxfshd.eastus.cloudapp.azure.com", "satxfshd.local", "satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
 #removed Azure URL
 
 # Application definition
@@ -156,11 +156,18 @@ CKEDITOR_CONFIGS = {
         'width': '100%',
     },
 }
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-DEFAULT_FROM_EMAIL = environ.get("DEFAULT_FROM_EMAIL")
-EMAIL_HOST = "smtp.sendgrid.net"
-EMAIL_HOST_USER = "apikey"
-EMAIL_HOST_PASSWORD = environ.get("SECRET_KEY")
+"""EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+DEFAULT_FROM_EMAIL = environ.get("DEFAULT_FROM_EMAIL")"""""
+
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'apikey' # Name for all the SenGrid accounts
+EMAIL_HOST_PASSWORD =  environ.get("SENDGRID_PASSWORD")
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+
+# The email you'll be sending emails from
+DEFAULT_FROM_EMAIL = 'info@stoutcasa.com'
+LOGIN_REDIRECT_URL = 'success'
