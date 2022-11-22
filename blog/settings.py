@@ -14,8 +14,11 @@ from pathlib import Path
 from pathlib import Path
 from os import environ
 from dotenv import load_dotenv
+from environs import Env 
 
 load_dotenv()
+env = Env()  # new
+env.read_env()  # new
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -92,6 +95,8 @@ DATABASES = {
     }
 }
 
+
+#DATABASES = {"default": env.dj_db_url("DATABASE_URL")}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
