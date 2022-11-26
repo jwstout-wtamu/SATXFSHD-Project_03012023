@@ -33,7 +33,7 @@ SECRET_KEY = environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["satxfshd.eastus.cloudapp.azure.com", "satxfshd.local", "satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
+ALLOWED_HOSTS = ["www.satx-fshd.org", "45.33.116.26", "satx-fshd.org", "satxfshd.herokuapp.com", ".herokuapp.com", "localhost", "127.0.0.1"]  # new
 #removed Azure URL
 
 # Application definition
