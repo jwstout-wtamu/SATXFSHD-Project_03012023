@@ -174,5 +174,5 @@ EMAIL_USE_TLS = True
 
 
 # The email you'll be sending emails from
-DEFAULT_FROM_EMAIL = 'info@stoutcasa.com'
-LOGIN_REDIRECT_URL = 'success'
+DEFAULT_FROM_EMAIL = environ.get('DEFAULT_FROM_EMAIL')
+
