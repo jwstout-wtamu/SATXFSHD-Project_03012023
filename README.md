@@ -17,12 +17,12 @@ The guidance on prototype development creates a Baseline, Good, Better, Best app
 | Local events   | Local calendar events        |
 | FSHD merchandise   | Where to purchase merchandise        |
 | Amazon Smile donations  | What is Amazon Smile and how it's used for donations        |
-| Local commuity news letter   | News letter feed straight to your inbox       |
+| Local commuity news letter   | 
 
 #### [Link to  separate table that itemizes which Django features I'll be using](https://github.com/jwstout-wtamu/6325-SATXFSHD-Project/blob/main/django_feature.md)
 
 - [x] What domain name you are planning to use: 	
-	- [x] satxfshd.social will be the domain name I'll be using
+	- [x] satx-fshd.org will be the domain name I'll be using (Letsencrypt does not like private domains...like .social)
 
 #### I will be exploring both options. Heroku seems to be the easy win, but I wold like to see if can get it running on a VPS as well (digitalocean)
 	- [ ] Heroku
